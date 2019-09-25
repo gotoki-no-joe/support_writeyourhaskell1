@@ -1,10 +1,11 @@
 # 『すごいHaskellじぶんで作ろう！』上巻（2019年9月22日）サポートページ
 
-* コメントや正誤の指摘などありましたら、Issueに登録してください。
+コメントや正誤の指摘などありましたら、Issueに登録してください。
 
-## ソースコード
+## 参考資料
 
-[ソースフォルダ](https://github.com/gotoki-no-joe/support_writeyourhaskell1/tree/master/source)
+* [ソースコード](https://github.com/gotoki-no-joe/support_writeyourhaskell1/tree/master/source)
+* [関連リンク](relatedwork.md)
 
 ## 電子版
 
