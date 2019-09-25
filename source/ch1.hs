@@ -12,32 +12,25 @@ data ASTVdef = ASTVdef String AST
 
 ---------- p.005 List 1.2
 
--- 1. 123
 example1 = ASTInt 123
 
--- 2. x
 example2 = ASTVarRef "x"
 
--- 3. add x 1
 example3 = ASTApp [ASTVarRef "add", ASTVarRef "x", ASTInt 1]
 
--- 4. let y = 1; in add x y
 example4 = ASTLet [ASTVdef "y" (ASTInt 1)]
                   (ASTApp [ ASTVarRef "add"
                           , ASTVarRef "x"
                           , ASTVarRef "y"])
 
--- 5. let x = 456; in x
 example5 = ASTLet [ASTVdef "x" (ASTInt 456)] (ASTVarRef "x")
 
--- 6. (\ x -> add x x) 3
 example6 =
   ASTApp [ ASTLambda ["x"] (ASTApp [ ASTVarRef "add"
                                    , ASTVarRef "x"
                                    , ASTVarRef "x"])
          , ASTInt 3]
 
--- 7. let s = add 1; in add (s 2) (s 3)
 example7 =
   ASTLet [ASTVdef "s" (ASTApp [ASTVarRef "add", ASTInt 1])]
          (ASTApp [ ASTVarRef "add"
