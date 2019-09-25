@@ -5,7 +5,6 @@
 ## ソースコード
 
 [ソースフォルダ](https://github.com/gotoki-no-joe/support_writeyourhaskell1/tree/master/source)
-（公開作業中）
 
 ## 電子版
 
