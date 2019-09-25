@@ -10,7 +10,7 @@
 
 PDFを購入者向けに提供します。
 [zipped PDF](https://github.com/gotoki-no-joe/support_writeyourhaskell1/blob/master/writeyourhaskell-0925.zip)  
-ZIPのパスワードは表1.1の例4の文字列です。空白も入れてください。これはもし例3であれば `add x 1` となるものです。
+ZIPのパスワードは表1.1の例4の文字列です。空白も入れてください。
 
 ## 正誤表
 
